@@ -68,7 +68,7 @@ with open("config_bundle.ini", "r") as bundleContents:
 
     print("-----------------------------------\n" + "Found: " + str(len(configurationsFound)) + " configurations in total")
 
-    outputDir = "export-profiles"
+    outputDir = "config_files"
     for configuration in configurationsFound:
         outputFileName = os.path.join(outputDir, configuration.fileName)
 
