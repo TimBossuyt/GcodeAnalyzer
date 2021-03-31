@@ -1,10 +1,10 @@
 # GCODE Analyzer
-I created this program to work with an API to get an estimation of how much a 3D print would cost. The program generates a `.gcode` file with the given settings and extracts the estimated printing time and filament consumed. The main purpose of this program is for 3D printing services to automatically give a rough estimated price of the print, without having to slice each time yourself (full API comes later).
+I created this program to work with an API to get an estimation of how much a 3D print would cost. The program generates a `.gcode` file with the given settings and extracts the estimated printing time and filament consumed. The main purpose of this program is for 3D printing services to automatically give a rough estimated price of the print, without having to slice each time yourself _(full API comes later)_.
 
 ## Slicer script
 This script uses the command line tool from PrusaSlicer to get the estimated printing time and used filament (cm3) from an `.stl` file with the given settings.
 
-⚠️This is used for calculating printing time and filament consumed only, use the generated .gcode at your own risk.⚠️
+⚠️Use this for calculating printing time and filament consumed only, use the .gcode at your own risk.⚠️
 
 ### Prerequisites
 * [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) install required
